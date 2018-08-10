@@ -1,0 +1,111 @@
+.YBCntTabs{
+    padding: 0 0 0 5px;
+}
+
+.YBCntTabs > div,
+.YBCntTabs> nav{
+    padding: 0;
+    margin: 0;
+}
+
+.YBCntTabs> nav{
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom: none;
+}
+
+.YBCntTabs> nav > .container,
+.YBCntTabs> nav > .container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+.YBCntTabs> nav > .container > .collapse,
+.YBCntTabs> nav > .container-fluid > .collapse{
+    border: none;
+    position: relative;
+    padding: 0!important;
+    margin: 0!important;
+}
+
+.YBCntTabs> nav > .container > .collapse > ul,
+.YBCntTabs> nav > .container-fluid > .collapse > ul,
+.YBCntTabs> nav > .container > .collapse > ul > li,
+.YBCntTabs> nav > .container-fluid > .collapse > ul > li {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.YBCntTabs> nav > .container > .collapse > ul > li.dropdown,
+.YBCntTabs> nav > .container-fluid > .collapse > ul > li.dropdown{
+    border-right: 1px solid #e7e7e7
+}
+
+.YBCntTabs> nav > .container > .collapse > ul > li> a,
+.YBCntTabs> nav > .container-fluid > .collapse > ul > li> a{
+    padding: 15px!important;
+}
+
+.YBCntTabs> nav > .container > .collapse > ul > li.dropdown >a,
+.YBCntTabs> nav > .container-fluid > .collapse > ul > li.dropdown> a
+{
+        padding: 15px 5px!important;
+}
+
+.YBCntTabs> nav > .container > .collapse > ul > li > a:hover,
+.YBCntTabs> nav > .container-fluid > .collapse > ul > li > a:hover,
+.YBCntTabs> nav > .container > .collapse > ul > li:hover + li.dropdown > a,
+.YBCntTabs> nav > .container-fluid > .collapse > ul > li:hover + li.dropdown > a{
+    border: none;
+    color: #009C82;
+    border-bottom: 2px solid #009C82;
+    height: 50px;
+}
+
+.YBCntTabs> nav > .container > .collapse > ul > li.active,
+.YBCntTabs> nav > .container-fluid > .collapse > ul > li.active {
+
+}
+
+.YBCntTabs> nav > .container > .collapse > ul > li.active > a,
+.YBCntTabs> nav > .container-fluid > .collapse > ul > li.active > a,
+.YBCntTabs> nav > .container > .collapse > ul > li.active + li.dropdown > a,
+.YBCntTabs> nav > .container-fluid > .collapse > ul > li.active + li.dropdown > a{
+    border-bottom: 6px solid #009C82;
+    height: 50px;
+    background: #e7e7e7;
+}
+
+.YBCntTabs> nav > .container > .collapse > ul > li.dropdown,
+.YBCntTabs> nav > .container-fluid > .collapse > ul > li.dropdown{
+    display: none;
+}
+
+.YBCntTabs> nav > .container > .collapse > ul > li.active + li.dropdown,
+.YBCntTabs> nav > .container-fluid > .collapse > ul > li.active + li.dropdown{
+    display: block;
+}
+
+.YBCntTabs> nav > .container > .collapse > ul > li.active + li.dropdown > a:hover,
+.YBCntTabs> nav > .container-fluid > .collapse > ul > li.active + li.dropdown > a:hover{
+    background: #009C82;
+    color: aliceblue;
+}
+
+.YBCntTabs> nav > .container > .collapse > ul > li.dropdown.open > a,
+.YBCntTabs> nav > .container-fluid > .collapse > ul > li.dropdown.open > a {
+    background: #009C82!important;
+    color: aliceblue!important;
+}
+
+.YBCntTabs> nav > .container > .collapse > ul > li.dropdown.open > .dropdown-menu,
+.YBCntTabs> nav > .container-fluid > .collapse > ul > li.dropdown.open > .dropdown-menu
+{
+    border: 1px solid #009C82;
+}
+
+.YBCntTabs> nav > .container > .collapse > ul > li.dropdown.open > .dropdown-menu > li,
+.YBCntTabs> nav > .container-fluid > .collapse > ul > li.dropdown.open > .dropdown-menu > li{
+    width: 100%;
+}
